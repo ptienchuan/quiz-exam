@@ -1,0 +1,27 @@
+.QuestionLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #8c8c8c;
+    border-radius: 50%;
+    margin: 10px 15px;
+    cursor: pointer;
+}
+
+.active {
+    border-color: #007bff !important;
+    border-width: 2px;
+    font-weight: bold;
+}
+.success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+.danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}

@@ -1,0 +1,14 @@
+/* common css for all pages */
+body {
+    font-family: Verdana, Geneva, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    padding: 0px 15px;
+}
+
+p {
+    margin: 0px
+}
+
+div, input {
+    box-sizing: border-box;
+}

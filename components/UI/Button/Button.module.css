@@ -1,0 +1,105 @@
+.Button {
+    font-size: 18px;
+    margin: 0px 5px;
+    padding: 6px 15px;
+    border: 1px solid #424242;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    color: #424242;
+}
+.Button:hover {
+    color: #000;
+    border-color: #000;
+}
+.Button:disabled {
+    background-color: #e6e6e6;
+    color: #909090;
+    border-color: #909090;
+    cursor: not-allowed;
+}
+
+.primaryButton {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+.primaryButton:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+}
+.primaryButton:disabled {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    opacity: 0.65;
+}
+
+.successButton {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+.successButton:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    color: #fff;
+}
+.successButton:disabled {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    opacity: 0.65;
+}
+
+.secondaryButton {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
+.secondaryButton:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+    color: #fff;
+}
+.secondaryButton:disabled {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+    opacity: 0.65;
+}
+
+.dangerButton {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+.dangerButton:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: #fff;
+}
+.dangerButton:disabled {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+    opacity: 0.65;
+}
+
+.lightButton {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #d6d6d6;
+}
+.lightButton:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+.lightButton:disabled {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #d6d6d6;
+    opacity: 0.65;
+}

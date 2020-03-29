@@ -1,0 +1,38 @@
+.LinkButton {
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}

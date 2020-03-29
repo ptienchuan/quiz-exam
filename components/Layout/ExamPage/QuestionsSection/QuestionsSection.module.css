@@ -1,0 +1,24 @@
+.QuestionsSection {
+    border: 1px solid #d1d5da;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.buttons button {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    border-radius: 0;
+    border-left-color: #d39e00;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+.buttons button:first-child {
+    border-top-left-radius: 6px;
+}
+.buttons button:last-child {
+    border-top-right-radius: 6px;
+}

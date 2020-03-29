@@ -1,0 +1,17 @@
+.Header {
+    text-align: center;
+    font-size: 24px;
+}
+.Header p {
+    margin: 0px 0px 20px;
+    position: relative;
+    display: inline-block;
+}
+.Header p::after {
+    content: '';
+    position: absolute;
+    left: 20%;
+    top: calc( 100% + 5px );
+    border: 1px solid #007bff;
+    width: 60%;
+}

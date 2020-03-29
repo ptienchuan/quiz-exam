@@ -1,0 +1,59 @@
+.Input {
+	margin-top: 15px;
+}
+
+.Input:first-child {
+	margin-top: 0px;
+}
+
+.Label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.TextInput {
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	color: inherit;
+	font-size: inherit;
+	border: 1px solid #ced4da;
+    background-color: #fff;
+    color: #495057;
+}
+
+.TextInput:focus,
+.TextInput:hover {
+	border-color: #9195cc;
+	outline: none;
+}
+
+.TextInput:disabled {
+	background-color: #373b51;
+}
+
+.Radio {
+	display: inline-block;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
+.Radio label {
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.Error {
+	border-color: #c2101d;
+}
+
+.Error:focus,
+.Error:hover {
+	border-color: red;
+}
+
+.ErrorMessage {
+	font-size: 14px;
+	color: #FD4747;
+	margin-bottom: 7px;
+}

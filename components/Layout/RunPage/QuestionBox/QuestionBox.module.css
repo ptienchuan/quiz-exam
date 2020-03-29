@@ -1,0 +1,93 @@
+.QuestionBox {
+    width: 100%;
+    background-color: #fff;
+}
+
+.header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 25px 0px;
+    font-size: 40px;
+}
+
+.QuestionBox.right .header {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.QuestionBox.wrong .header {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.body {
+    padding: 25px 25px 15px;
+}
+
+.body p {
+    margin: 3px 0px 15px;
+}
+
+.title {
+    color: #8e8e8e;
+    margin-bottom: 25px;
+}
+
+.answersContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 20px 0px;
+}
+
+.answer {
+    width: 45%;
+    margin: 10px 0px;
+    border-radius: 4px;
+}
+
+.answer label {
+    cursor: pointer;
+}
+
+.answer input[type=radio] {
+    display: none;
+}
+
+.answerLabel {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #6f6f6f;
+    border: 2px dashed #ccc;
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.aActive .answerLabel {
+    color: #007bff;
+    border-style: solid;
+    border-color: #007bff;
+}
+
+.aRight .answerLabel {
+    border-style: solid;
+    border-color: #28a745;
+    color: #28a745;
+}
+.aRight label {
+    color: #28a745;
+}
+
+.aWrong .answerLabel {
+    border-style: solid;
+    border-color: #dc3545;
+    color: #dc3545;
+}
+.aWrong label {
+    color: #dc3545;
+}

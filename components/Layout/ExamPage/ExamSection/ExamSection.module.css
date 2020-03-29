@@ -1,0 +1,17 @@
+.label {
+    color: #7d7d7d;
+    margin-right: 10px;
+}
+
+.examName {
+    display: flex;
+    align-items: center;
+}
+
+.examName p{
+    flex-grow: 1;
+}
+
+.examName button{
+    font-size: 12px;
+}

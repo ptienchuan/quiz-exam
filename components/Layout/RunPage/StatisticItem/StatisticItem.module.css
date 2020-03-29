@@ -1,0 +1,34 @@
+.statisticItem {
+    font-size: 12px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.value {
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.percent {
+    font-size: 15px;
+    position: absolute;
+    top: 5px;
+    left: calc( 100% + 5px );
+    font-weight: normal;
+}
+
+.secondary {
+    color: #959ba0;
+}
+
+.success {
+    color: #28a745;
+}
+
+.danger {
+    color: #dc3545;
+}
