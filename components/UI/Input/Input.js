@@ -52,8 +52,13 @@ const Input = props => {
 			break;
 	}
 
+	const useClasses = [classes.Input]
+	if (props.addclass) {
+		useClasses.push(props.addclass)
+	}
+
 	return (
-		<div className={classes.Input}>
+		<div className={useClasses.join(' ')}>
 			{label}
 			{error}
 			{inputElement}

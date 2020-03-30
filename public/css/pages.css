@@ -9,6 +9,6 @@ p {
     margin: 0px
 }
 
-div, input {
+div, input, textarea {
     box-sizing: border-box;
 }

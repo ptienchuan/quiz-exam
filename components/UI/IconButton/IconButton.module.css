@@ -57,3 +57,14 @@
     border-color: #bd2130;
     color: #fff;
 }
+
+.light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.light:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
