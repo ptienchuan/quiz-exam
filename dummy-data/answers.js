@@ -3,25 +3,25 @@ const Answer = require("../model/answer");
 module.exports = [
     //Qestion 1
     new Answer({
-        id: "a",
+        id: 1,
         content: "8",
         type: 1,
         question: 1
     }),
     new Answer({
-        id: "b",
+        id: 2,
         content: "9",
         type: 1,
         question: 1
     }),
     new Answer({
-        id: "c",
+        id: 3,
         content: "10",
         type: 1,
         question: 1
     }),
     new Answer({
-        id: "d",
+        id: 4,
         content: "12",
         type: 1,
         question: 1
@@ -29,25 +29,25 @@ module.exports = [
 
     //Qestion 2
     new Answer({
-        id: "e",
+        id: 5,
         content: "12",
         type: 1,
         question: 2
     }),
     new Answer({
-        id: "f",
+        id: 6,
         content: "13",
         type: 1,
         question: 2
     }),
     new Answer({
-        id: "g",
+        id: 7,
         content: "14",
         type: 1,
         question: 2
     }),
     new Answer({
-        id: "h",
+        id: 8,
         content: "15",
         type: 1,
         question: 2
