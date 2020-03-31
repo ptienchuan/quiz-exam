@@ -17,7 +17,7 @@ const Message = props => {
     }
 
     if (props.addClass) {
-        useStyles.push(addClass)
+        useStyles.push(props.addClass)
     }
 
     return (

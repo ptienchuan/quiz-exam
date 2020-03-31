@@ -8,7 +8,7 @@
     border-radius: 4px;
     box-shadow: 0 0 18px rgba(0,0,0,.4);
     overflow: hidden;
-    max-height: 560px;
+    height: 560px;
     display: flex;
     flex-direction: column;
 }
@@ -53,8 +53,13 @@
     align-items: flex-end;
     margin: 10px 0px;
 }
-.answerHeader p {
+.answerHeader > div {
     flex-grow: 1;
+}
+
+.errorMessage {
+    margin-top: 5px;
+    font-size: 14px;
 }
 
 .answer {
@@ -70,6 +75,9 @@
 
 .answer input[type=radio] {
     display: none;
+}
+.answerError input[type=text] {
+    border-color: #c2101d;
 }
 
 .answerLabel {

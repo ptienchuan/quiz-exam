@@ -25,7 +25,7 @@ const Input = props => {
 	switch (props.element) {
 		case "text":
 			inputElement = (
-				<input className={textInputClasses.join(" ")} {...props} />
+				<input type="text" className={textInputClasses.join(" ")} {...props} />
 			);
 			break;
 		case "textarea":
@@ -47,7 +47,7 @@ const Input = props => {
 			break;
 		default:
 			inputElement = (
-				<input className={textInputClasses.join(" ")} {...props} />
+				<input type="text" className={textInputClasses.join(" ")} {...props} />
 			);
 			break;
 	}
